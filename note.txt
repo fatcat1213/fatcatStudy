@@ -103,7 +103,12 @@ git merge [branch]
 #选择一个commit,合并进当前分支
 git cherry-pick [commit]
 
+#删除分支
+git branch -d [branch-name]
 
+#删除远程分支
+git push origin --delete [branch-name]
+git branch -dr [remote/branch]
 
 
 
