@@ -137,3 +137,25 @@ git push [remote] --tags
 
 #新建一个分支指向某个tag
 git checkout -b [branch] [tag]
+
+七、查看信息
+#显示有变更的文件
+git status
+
+#显示当前分支的版本历史
+git log 
+
+#显示commit历史,以及每次commit发生变更的文件
+git log --stat
+
+#搜索提交历史,根据关键词
+git log -S [keyword]
+
+#显示某个commit之后的所有变动,每个commit占据一行
+git log [tag] HEAD --pretty=format:%s
+
+#显示某个commit之后的所有变动,其提交说明必须符合搜索条件
+git log [tag] HEAD --grep feature
+
+#显示某个文件的版本历史,包括文件改名
+git log --follow [file]
