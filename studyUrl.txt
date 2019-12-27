@@ -2,3 +2,6 @@ vue爬坑之路:
 	https://www.cnblogs.com/wisewrong/p/9740173.html
 
 https://nav.imaring.com/index.html
+
+书籍地址:
+https://juejin.im/post/5e0577e26fb9a01600534eae
