@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.luck_wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-color: darkgray;
+	width: 600px;
+	height: 600px;
+	text-align: center;
+}
+.luck_item {
+	float: left;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	background-color: yellow;
+}
+.luck_start {
+	background-color: red;
+}
+.luck_active {
+	border: 1px solid green;
+}
